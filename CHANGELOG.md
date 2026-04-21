@@ -2,6 +2,14 @@
 
 ## main (unreleased)
 
+## 1.0.0 (2026-04-21)
+
+- Published on [MELPA](https://melpa.org/#/batppuccin); package renamed from the shared-infrastructure file to `batppuccin` for MELPA namespace compliance.
+- Face coverage expanded to mu4e, notmuch, evil, plus 12 additional packages.
+- Fix rainbow-delimiters depth color collisions and give mismatched delimiters a distinct red box outline.
+- Refine several face colors: `hi-pink`, `show-paren-mismatch`, `hl-todo`, and `font-lock-property-*`.
+- Documentation: new section on automatic light/dark theme switching.
+
 ## 0.1.0 (2026-03-29)
 
 Initial release.
