@@ -3,6 +3,7 @@
 ## main (unreleased)
 
 - Add face for built-in which-func package.
+- Fix `batppuccin-scale-headings` not affecting org-mode and other outline-based headings.
 
 ## 1.0.0 (2026-04-21)
 

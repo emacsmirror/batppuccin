@@ -753,9 +753,9 @@ The light flavor.")
          `(org-agenda-current-time ((,class (:foreground ,bat-sky))))
 
 ;;;;; outline
-         `(outline-1 ((,class (:foreground ,bat-heading1 :weight bold))))
-         `(outline-2 ((,class (:foreground ,bat-heading2 :weight bold))))
-         `(outline-3 ((,class (:foreground ,bat-heading3 :weight bold))))
+         `(outline-1 ((,class (:foreground ,bat-heading1 :weight bold :height ,h1))))
+         `(outline-2 ((,class (:foreground ,bat-heading2 :weight bold :height ,h2))))
+         `(outline-3 ((,class (:foreground ,bat-heading3 :weight bold :height ,h3))))
          `(outline-4 ((,class (:foreground ,bat-heading4 :weight bold))))
          `(outline-5 ((,class (:foreground ,bat-heading5 :weight bold))))
          `(outline-6 ((,class (:foreground ,bat-heading6 :weight bold))))
