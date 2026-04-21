@@ -1,5 +1,7 @@
 # Batppuccin
 
+[![MELPA](https://melpa.org/packages/batppuccin-badge.svg)](https://melpa.org/#/batppuccin)
+
 Batppuccin is an opinionated Emacs port of the [Catppuccin](https://github.com/catppuccin/catppuccin) color scheme. It aims to follow the official Catppuccin style guide closely while being structured idiomatically for Emacs.
 
 The name is a play on my last name ([Batsov](https://batsov.com/)) + Catppuccin (cat -> bat). So, that's essentially `@bbatsov`'s take on Catppuccin.[^1]
@@ -44,18 +46,29 @@ Batppuccin follows the conventions established in [zenburn-emacs](https://github
 
 ## Installation
 
-### From Source
+### MELPA
 
-Clone the repo and add it to your load path:
+Batppuccin is available on [MELPA](https://melpa.org/#/batppuccin). Assuming
+you've [configured MELPA](https://melpa.org/#/getting-started) as a package
+source:
 
-```elisp
-(add-to-list 'custom-theme-load-path "/path/to/batppuccin-emacs")
+```
+M-x package-install RET batppuccin RET
 ```
 
 Then load any flavor:
 
 ```elisp
 (load-theme 'batppuccin-mocha t)
+```
+
+Or with `use-package`:
+
+```elisp
+(use-package batppuccin
+  :ensure t
+  :config
+  (load-theme 'batppuccin-mocha t))
 ```
 
 ### package-vc-install
@@ -68,10 +81,19 @@ Then load any flavor:
 ### use-package (with package-vc)
 
 ```elisp
-(use-package batppuccin-mocha-theme
+(use-package batppuccin
   :vc (:url "https://github.com/bbatsov/batppuccin-emacs" :rev :newest)
   :config
   (load-theme 'batppuccin-mocha t))
+```
+
+### From source
+
+Clone the repo and add it to your load path:
+
+```elisp
+(add-to-list 'custom-theme-load-path "/path/to/batppuccin-emacs")
+(load-theme 'batppuccin-mocha t)
 ```
 
 ## Flavors
