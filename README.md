@@ -1,6 +1,7 @@
 # Batppuccin
 
 [![MELPA](https://melpa.org/packages/batppuccin-badge.svg)](https://melpa.org/#/batppuccin)
+[![Build Status](https://github.com/bbatsov/batppuccin-emacs/workflows/CI/badge.svg)](https://github.com/bbatsov/batppuccin-emacs/actions?query=workflow%3ACI)
 
 Batppuccin is an opinionated Emacs port of the [Catppuccin](https://github.com/catppuccin/catppuccin) color scheme. It aims to follow the official Catppuccin style guide closely while being structured idiomatically for Emacs.
 
