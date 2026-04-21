@@ -2,6 +2,8 @@
 
 ## main (unreleased)
 
+- Add face for built-in which-func package.
+
 ## 1.0.0 (2026-04-21)
 
 - Published on [MELPA](https://melpa.org/#/batppuccin); package renamed from the shared-infrastructure file to `batppuccin` for MELPA namespace compliance.

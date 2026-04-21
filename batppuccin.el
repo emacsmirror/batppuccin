@@ -1428,6 +1428,9 @@ The light flavor.")
          `(web-mode-sql-keyword-face ((,class (:foreground ,bat-mauve))))
          `(web-mode-html-entity-face ((,class (:foreground ,bat-peach))))
 
+;;;;; which-func
+         `(which-func ((,class (:foreground ,bat-blue))))
+
 ;;;;; which-key
          `(which-key-key-face ((,class (:foreground ,bat-mauve :weight bold))))
          `(which-key-separator-face ((,class (:foreground ,bat-overlay2))))
