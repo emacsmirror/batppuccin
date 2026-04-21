@@ -23,6 +23,10 @@ request. Please, try to follow these guidelines when you do so.
 * Mention related tickets in the commit messages (e.g. `[Fix #N] Add missing autoload cookies`)
 * Update the [changelog][5].
 * Use the same coding conventions as the rest of the project.
+* Align new or updated faces with the [official Catppuccin style guide][6].
+  When the guide doesn't cover a specific face, pick the closest palette slot
+  by role (e.g. functions → blue, keywords → mauve, strings → green) and
+  mention your reasoning in the PR.
 * Verify your Emacs Lisp code with `checkdoc` (<kbd>C-c ? d</kbd>).
 * Add a before/after screenshot illustrating visually your changes.
 * Open a [pull request][4] that relates to *only* one subject with a clear title
@@ -33,3 +37,4 @@ request. Please, try to follow these guidelines when you do so.
 [3]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [4]: https://help.github.com/articles/using-pull-requests
 [5]: https://github.com/bbatsov/batppuccin-emacs/blob/main/CHANGELOG.md
+[6]: https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md
