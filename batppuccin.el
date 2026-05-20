@@ -1,4 +1,4 @@
-;;; batppuccin.el --- Shared infrastructure for Batppuccin themes -*- lexical-binding: t; -*-
+;;; batppuccin.el --- Batppuccin (Catppuccin) color themes -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026 Bozhidar Batsov
 
