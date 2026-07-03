@@ -123,6 +123,17 @@ Clone the repo and add it to your load path:
 | `batppuccin-frappe` | Medium-dark |
 | `batppuccin-latte` | Light |
 
+<table>
+  <tr>
+    <td align="center"><code>batppuccin-mocha</code><br><img src="screenshots/batppuccin-mocha.png" alt="batppuccin-mocha" width="420"></td>
+    <td align="center"><code>batppuccin-macchiato</code><br><img src="screenshots/batppuccin-macchiato.png" alt="batppuccin-macchiato" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><code>batppuccin-frappe</code><br><img src="screenshots/batppuccin-frappe.png" alt="batppuccin-frappe" width="420"></td>
+    <td align="center"><code>batppuccin-latte</code><br><img src="screenshots/batppuccin-latte.png" alt="batppuccin-latte" width="420"></td>
+  </tr>
+</table>
+
 ## Customization
 
 Override any color across all flavors:
