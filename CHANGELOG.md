@@ -7,6 +7,7 @@
 - Give `markdown-code-face` an explicit background so code blocks no longer pick up a dark fallback when using Latte.
 - Add face coverage for the `diredfl` package.
 - Add face for Emacs 31 `minibuffer-nonselected-mode`.
+- Set `ns-appearance` to match each flavor on macOS so the Latte title bar text stays readable.
 
 ## 1.0.0 (2026-04-21)
 
